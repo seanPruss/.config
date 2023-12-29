@@ -1,0 +1,6 @@
+2023/12/29-08:41:55.799 bee Reusing MANIFEST /home/seanp/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/12/29-08:41:55.799 bee Recovering log #120
+2023/12/29-08:41:55.799 bee Reusing old log /home/seanp/.config/discord/Local Storage/leveldb/000120.log 
+2023/12/29-08:44:48.763 c4b Level-0 table #124: started
+2023/12/29-08:44:48.802 c4b Level-0 table #124: 713273 bytes OK
+2023/12/29-08:44:48.806 c4b Delete type=0 #120

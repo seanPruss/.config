@@ -1,0 +1,25 @@
+2023/12/28-15:35:13.099 10eb Reusing MANIFEST /home/seanp/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/12/28-15:35:13.100 10eb Recovering log #110
+2023/12/28-15:35:13.100 10eb Reusing old log /home/seanp/.config/discord/Local Storage/leveldb/000110.log 
+2023/12/28-15:51:07.068 110f Level-0 table #114: started
+2023/12/28-15:51:07.107 110f Level-0 table #114: 2758173 bytes OK
+2023/12/28-15:51:07.111 110f Delete type=0 #110
+2023/12/28-19:57:47.551 2da02 Level-0 table #116: started
+2023/12/28-19:57:47.571 2da02 Level-0 table #116: 20202 bytes OK
+2023/12/28-19:57:47.574 2da02 Delete type=0 #113
+2023/12/28-19:57:47.574 2da02 Compacting 4@0 + 3@1 files
+2023/12/28-19:57:47.595 2da02 Generated table #117@0: 28 keys, 2747275 bytes
+2023/12/28-19:57:47.606 2da02 Generated table #118@0: 72 keys, 2099043 bytes
+2023/12/28-19:57:47.620 2da02 Generated table #119@0: 31 keys, 772761 bytes
+2023/12/28-19:57:47.620 2da02 Compacted 4@0 + 3@1 files => 5619079 bytes
+2023/12/28-19:57:47.623 2da02 compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/12/28-19:57:47.623 2da02 Delete type=2 #116
+2023/12/28-19:57:47.623 2da02 Delete type=2 #107
+2023/12/28-19:57:47.623 2da02 Delete type=2 #111
+2023/12/28-19:57:47.623 2da02 Delete type=2 #106
+2023/12/28-19:57:47.623 2da02 Delete type=2 #69
+2023/12/28-19:57:47.623 2da02 Delete type=2 #109
+2023/12/28-19:57:47.623 2da02 Delete type=2 #114
+2023/12/28-21:35:49.662 2da02 Level-0 table #121: started
+2023/12/28-21:35:49.682 2da02 Level-0 table #121: 17624 bytes OK
+2023/12/28-21:35:49.685 2da02 Delete type=0 #115
