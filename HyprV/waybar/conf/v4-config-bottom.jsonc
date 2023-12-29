@@ -9,6 +9,7 @@
   "modules-left": [
     "custom/launch_wofi",
     "custom/launch_librewolf",
+    "custom/launch_spotify",
     "custom/launch_discord",
     "custom/launch_thunderbird",
     "custom/launch_kitty",
@@ -52,6 +53,12 @@
   "custom/launch_discord": {
     "format": "󰙯",
     "on-click": "discord",
+    "tooltip": false
+  },
+
+  "custom/launch_spotify": {
+    "format": "󰓇",
+    "on-click": "spotify",
     "tooltip": false
   },
 
