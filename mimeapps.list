@@ -4,10 +4,16 @@ x-scheme-handler/http=librewolf.desktop
 x-scheme-handler/https=librewolf.desktop
 x-scheme-handler/about=librewolf.desktop
 x-scheme-handler/unknown=librewolf.desktop
-x-scheme-handler/mailto=userapp-Thunderbird-ZKS4G2.desktop
-message/rfc822=userapp-Thunderbird-ZKS4G2.desktop
-x-scheme-handler/mid=userapp-Thunderbird-ZKS4G2.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-RW59G2.desktop
+message/rfc822=userapp-Thunderbird-RW59G2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-RW59G2.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-ZAYAH2.desktop
+text/calendar=userapp-Thunderbird-ZAYAH2.desktop
+application/x-extension-ics=userapp-Thunderbird-ZAYAH2.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-ZAYAH2.desktop
 
 [Added Associations]
-x-scheme-handler/mailto=userapp-Thunderbird-ZKS4G2.desktop;
-x-scheme-handler/mid=userapp-Thunderbird-ZKS4G2.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-ZKS4G2.desktop;userapp-Thunderbird-RW59G2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-ZKS4G2.desktop;userapp-Thunderbird-RW59G2.desktop;
+x-scheme-handler/webcal=userapp-Thunderbird-ZAYAH2.desktop;
+x-scheme-handler/webcals=userapp-Thunderbird-ZAYAH2.desktop;

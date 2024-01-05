@@ -5,3 +5,5 @@ dconf
 thefuck/__pycache__
 user-dirs.locale
 user-dirs.dirs
+keepassxc
+QtProject.conf
