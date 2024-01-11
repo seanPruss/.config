@@ -18,6 +18,7 @@ application/x-extension-shtml=floorp.desktop
 application/xhtml+xml=floorp.desktop
 application/x-extension-xhtml=floorp.desktop
 application/x-extension-xht=floorp.desktop
+x-scheme-handler/msteams=teams.desktop
 
 [Added Associations]
 x-scheme-handler/mailto=userapp-Thunderbird-ZKS4G2.desktop;userapp-Thunderbird-RW59G2.desktop;
