@@ -82,6 +82,7 @@ alias gup='git branch --set-upstream-to=origin/$(git-current-branch) $(git-curre
 
 alias gnext='git log --ancestry-path --format=%H ${commit}..master | tail -1 | xargs git checkout'
 alias gprev='git checkout HEAD^'
+alias lzg='lazygit'
 
 # options
 unsetopt menu_complete
@@ -102,6 +103,7 @@ setopt share_history
 
 autoload -U compinit 
 compinit
+_comp_options+=(globdots)
 
 bindkey '^a' beginning-of-line
 bindkey '^e' end-of-line
