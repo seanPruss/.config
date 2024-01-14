@@ -111,6 +111,7 @@ source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.config/zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 source ~/.config/zsh/zsh-you-should-use/you-should-use.plugin.zsh
+source ~/.config/zsh/fzf-tab/fzf-tab.plugin.zsh
 
 zstyle ':completion:*' menu select
 
