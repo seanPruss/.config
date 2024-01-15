@@ -114,6 +114,7 @@ source ~/.config/zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zs
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.config/zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 source ~/.config/zsh/zsh-you-should-use/you-should-use.plugin.zsh
+source ~/.config/zsh/zsh-autoswitch-virtualenv/autoswitch_virtualenv.plugin.zsh
 
 zstyle ':completion:*' menu select
 
