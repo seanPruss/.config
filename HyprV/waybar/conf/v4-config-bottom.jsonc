@@ -8,7 +8,7 @@
   "height": 25,
   "modules-left": [
     "custom/launch_wofi",
-    "custom/launch_librewolf",
+    "custom/launch_floorp",
     "custom/launch_spotify",
     "custom/launch_discord",
     "custom/launch_thunderbird",
@@ -20,9 +20,9 @@
 
   "include": ["~/.config/HyprV/waybar/conf/mesu.jsonc"],
 
-  "custom/launch_librewolf": {
+  "custom/launch_floorp": {
     "format": "",
-    "on-click": "librewolf",
+    "on-click": "flatpak run one.ablaze.floorp",
     "tooltip": false
   },
 

@@ -44,7 +44,7 @@ tooltip label {
 }
 
 #custom-launch_wofi,
-#custom-launch_librewolf,
+#custom-launch_floorp,
 #custom-launch_discord,
 #custom-launch_spotify,
 #custom-launch_thunderbird,
@@ -92,7 +92,7 @@ tooltip label {
   margin-right: 0px;
 }
 
-#custom-launch_librewolf,
+#custom-launch_floorp,
 #custom-launch_discord,
 #custom-launch_spotify,
 #custom-launch_thunderbird,
@@ -106,7 +106,7 @@ tooltip label {
   margin-right: 20px;
 }
 
-#custom-launch_librewolf,
+#custom-launch_floorp,
 #custom-launch_kitty {
   font-size: 20px;
 }
