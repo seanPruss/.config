@@ -22,7 +22,7 @@
 
   "custom/launch_floorp": {
     "format": "",
-    "on-click": "flatpak run one.ablaze.floorp",
+    "on-click": "floorp",
     "tooltip": false
   },
 
