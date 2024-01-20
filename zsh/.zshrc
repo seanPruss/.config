@@ -9,17 +9,13 @@ HISTFILE=~/.cache/zsh/history
 # Add flags to existing aliases.
 alias fucking="sudo"
 alias install="yay -S"
-update ()
-{
-    yay -Syu
-    flatpak update
-}
+alias update="yay -Syu"
 alias uninstall="yay -Rns"
 alias ls="eza -a --icons=auto"
 alias sl="ls"
 alias ll="ls -lh"
 # Define aliases.
-function foo {
+foo {
     cd $1
     ls
 }
