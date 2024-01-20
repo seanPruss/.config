@@ -20,15 +20,15 @@ foo {
     ls
 }
 alias cd="foo"
-function mcd {
+mcd {
     mkdir -p $1
     cd $1
 }
-function cls {
+cls {
     clear
     ls
 }
-function cll {
+cll {
     clear
     ll
 }
