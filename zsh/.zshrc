@@ -15,20 +15,20 @@ alias ls="eza -a --icons=auto"
 alias sl="ls"
 alias ll="ls -lh"
 # Define aliases.
-foo {
+foo() {
     cd $1
     ls
 }
 alias cd="foo"
-function mcd {
+mcd() {
     mkdir -p $1
     cd $1
 }
-function cls {
+cls() {
     clear
     ls
 }
-function cll {
+cll() {
     clear
     ll
 }
