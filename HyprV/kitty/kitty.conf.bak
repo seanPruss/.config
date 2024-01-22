@@ -26,6 +26,6 @@ map ctrl+shift+n no_op
 
 
 # BEGIN_KITTY_THEME
-# Adwaita darker
+# Adapta Nokto Maia
 include current-theme.conf
 # END_KITTY_THEME
