@@ -44,7 +44,7 @@ alias ppp="cd -3"
 alias pppp="cd -4"
 alias vim="nvim"
 # Git aliases
-alias gc='git commit'
+alias gc='git commit -m'
 alias gco='git checkout'
 alias ga='git add'
 alias gb='git branch'
