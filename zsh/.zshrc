@@ -21,7 +21,7 @@ foo() {
 }
 alias cd="foo"
 bar() {
-    rm $1
+    rm -rf $1
     ls
 }
 alias rm="bar"
