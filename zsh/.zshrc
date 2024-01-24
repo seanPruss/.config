@@ -32,7 +32,6 @@ cll() {
     clear
     ll
 }
-alias c="clear"
 alias tree='ls --tree'
 alias b="cd .."
 alias bb="cd ../.."
