@@ -20,11 +20,6 @@ foo() {
     ls
 }
 alias cd="foo"
-bar() {
-    rm -rf $1
-    ls
-}
-alias rm="bar"
 mcd() {
     mkdir -p $1
     cd $1
