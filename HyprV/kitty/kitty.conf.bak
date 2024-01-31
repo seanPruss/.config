@@ -26,6 +26,6 @@ map ctrl+shift+n no_op
 
 
 # BEGIN_KITTY_THEME
-# Constant Perceptual Luminosity (dark)
+# GitHub Dark High Contrast
 include current-theme.conf
 # END_KITTY_THEME
