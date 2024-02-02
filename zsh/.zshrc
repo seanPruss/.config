@@ -1,4 +1,6 @@
 uwufetch
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 export EDITOR="nvim"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/local/lib"
 export FZF_DEFAULT_OPTS="
@@ -22,7 +24,7 @@ alias sl="ls"
 alias ll="ls -lh"
 # Define aliases.
 foo() {
-    cd $1
+    z $1
     ls
 }
 alias cd="foo"
@@ -128,6 +130,3 @@ bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-
-eval "$(starship init zsh)"
-eval "$(zoxide init zsh)"
