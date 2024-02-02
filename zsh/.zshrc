@@ -130,3 +130,4 @@ bindkey '^[[B' history-substring-search-down
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
