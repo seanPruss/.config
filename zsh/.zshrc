@@ -17,7 +17,12 @@ HISTFILE=~/.zsh_history
 # Add flags to existing aliases.
 alias fucking="sudo"
 alias install="yay -S"
-alias update="yay -Syu"
+# alias update="yay -Syu"
+update ()
+{
+    yay -Syu
+    flatpak update
+}
 alias uninstall="yay -Rns"
 alias ls="eza -a --icons=auto"
 alias sl="ls"
