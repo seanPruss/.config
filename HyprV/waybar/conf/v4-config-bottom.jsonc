@@ -10,7 +10,7 @@
     "custom/launch_wofi",
     "custom/launch_floorp",
     "custom/launch_spotify",
-    "custom/launch_discord",
+    "custom/launch_webcord",
     "custom/launch_thunderbird",
     "custom/launch_kitty",
     "custom/launch_thunar"
@@ -50,9 +50,9 @@
     "tooltip": false
   },
 
-  "custom/launch_discord": {
+  "custom/launch_webcord": {
     "format": "󰙯",
-    "on-click": "discord",
+    "on-click": "webcord",
     "tooltip": false
   },
 
