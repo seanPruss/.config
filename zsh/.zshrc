@@ -26,7 +26,7 @@ update ()
 alias uninstall="yay -Rns"
 alias ls="eza -a --icons=auto"
 alias sl="ls"
-alias ll="ls -lh"
+alias ll="ls -lh --git --git-repos"
 # Define aliases.
 foo() {
     z $1
@@ -55,6 +55,7 @@ alias pp="cd -2"
 alias ppp="cd -3"
 alias pppp="cd -4"
 alias vim="nvim"
+alias cim='vim'
 # Git aliases
 alias gc='git commit -m'
 alias gco='git checkout'
