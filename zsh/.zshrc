@@ -24,6 +24,7 @@ update ()
     flatpak update
 }
 alias uninstall="yay -Rns"
+alias search="yay -Ss"
 alias ls="eza -a --icons=auto"
 alias sl="ls"
 alias ll="ls -lh --git --git-repos"
