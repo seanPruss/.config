@@ -4,7 +4,7 @@ Documentation=http://jonls.dk/redshift/
 After=display-manager.service
 
 [Service]
-ExecStart=/usr/bin/redshift -t 5700:1500
+ExecStart=/usr/bin/redshift -t 5700:1200
 Restart=always
 
 [Install]
