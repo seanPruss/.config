@@ -1,4 +1,4 @@
-uwufetch -i
+uwufetch
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 export EDITOR="nvim"
