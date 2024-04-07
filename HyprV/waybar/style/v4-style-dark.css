@@ -99,11 +99,7 @@ tooltip label {
   padding: 0px 8px;
   margin: 0px 3px;
   border: 0px;
-  color: @foam;
-}
-
-#temperature.critical {
-  color: #e92d4d;
+  color: @text;
 }
 
 #workspaces {
@@ -125,14 +121,30 @@ tooltip label {
 #custom-launch_wofi,
 #custom-launch_kitty,
 #custom-weather {
-  margin-left: 0px;
+  margin-left: 5px;
   border-right: 0px;
   font-size: 24px;
-  margin-right: 20px;
-  color: @gold;
+  margin-right: 10px;
+  color: @text;
 }
 
 #custom-launch_floorp,
 #custom-launch_kitty {
   font-size: 20px;
+}
+
+#memory {
+  color: @foam;
+}
+
+#cpu {
+  color: @rose;
+}
+
+#temperature {
+  color: @love;
+}
+
+#battery {
+  color: @gold;
 }
