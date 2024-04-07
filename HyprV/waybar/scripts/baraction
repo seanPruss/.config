@@ -48,9 +48,9 @@ gsettings set org.gnome.desktop.interface gtk-theme "rose-pine-gtk"
 
 #change the background image and be cool about it ;)
 if [ -z $SET_BG ]; then
-	swww img ~/.config/HyprV/backgrounds/$VER'-background'$SWITCHTO.jpg --transition-fps 60 --transition-type wipe --transition-duration 2
+	swww img ~/Pictures/TrenTwins.jpg
 else
-	swww img $SET_BG --transition-fps 60 --transition-type wipe --transition-duration 2
+	sww img ~/Pictures/TrenTwins.jpg
 fi
 
 #update the sddm image
