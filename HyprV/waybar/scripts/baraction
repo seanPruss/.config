@@ -36,11 +36,11 @@ fi
 
 #set the xfce and GTK theme
 if [ $VER == "v4" ]; then
-	xfconf-query -c xsettings -p /Net/IconThemeName -s "oomox-rose-pine"
-	gsettings set org.gnome.desktop.interface icon-theme "oomox-rose-pine"
+	xfconf-query -c xsettings -p /Net/IconThemeName -s "rose-pine-icons"
+	gsettings set org.gnome.desktop.interface icon-theme "rose-pine-icons"
 else
-	xfconf-query -c xsettings -p /Net/IconThemeName -s "rose-pine-gtk"
-	gsettings set org.gnome.desktop.interface icon-theme "rose-pine-gtk"
+	xfconf-query -c xsettings -p /Net/IconThemeName -s "rose-pine-icons"
+	gsettings set org.gnome.desktop.interface icon-theme "rose-pine-icons"
 fi
 
 xfconf-query -c xsettings -p /Net/ThemeName -s "rose-pine-gtk"
