@@ -50,7 +50,7 @@ gsettings set org.gnome.desktop.interface gtk-theme "rose-pine-gtk"
 if [ -z $SET_BG ]; then
 	swww img ~/Pictures/TrenTwins.jpg
 else
-	sww img ~/Pictures/TrenTwins.jpg
+	swww img ~/Pictures/TrenTwins.jpg
 fi
 
 #update the sddm image
