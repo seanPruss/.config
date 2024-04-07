@@ -138,7 +138,7 @@ tooltip label {
 }
 
 #cpu {
-  color: @rose;
+  color: @pine;
 }
 
 #temperature {
@@ -146,5 +146,13 @@ tooltip label {
 }
 
 #battery {
+  color: @rose;
+}
+
+#pulseaudio {
+  color: @iris;
+}
+
+#backlight {
   color: @gold;
 }
