@@ -156,3 +156,27 @@ tooltip label {
 #backlight {
   color: @gold;
 }
+
+#custom-launch_spotify {
+  color: @foam;
+}
+
+#custom-launch_floorp {
+  color: @pine;
+}
+
+#custom-launch_webcord {
+  color: @iris;
+}
+
+#custom-launch_kitty {
+  color: @gold;
+}
+
+#custom-launch_thunderbird {
+  color: @rose;
+}
+
+#custom-launch_thunar {
+  color: @love;
+}
