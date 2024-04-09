@@ -55,9 +55,9 @@ set_current_background() {
 	if [[ ! -z "$SET_BG" ]]; then
 		#set the current background
 		if [[ $THEMEIS == "dark.css" ]]; then
-			swww img ~/Pictures/TrenTwins.jpg
+			swww img ~/.config/TrenTwins.jpg
 		else
-			swww img ~/Pictures/TrenTwins.jpg
+			swww img ~/.config/TrenTwins.jpg
 		fi
 	else
 		swww img $SET_BG
