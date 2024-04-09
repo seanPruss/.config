@@ -143,14 +143,15 @@ bindkey '^a' beginning-of-line
 bindkey '^e' end-of-line
 
 # plugins
-source ~/.config/zsh/fzf-tab/fzf-tab.plugin.zsh
-source ~/.config/zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.config/zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
-source ~/.config/zsh/zsh-you-should-use/you-should-use.plugin.zsh
-source ~/.config/zsh/zsh-autoswitch-virtualenv/autoswitch_virtualenv.plugin.zsh
-source ~/.config/zsh/zsh-auto-notify/auto-notify.plugin.zsh
-AUTO_NOTIFY_IGNORE+=("lazygit" "crontab -e" "yazi" "spotify-launcher" "tmux attach" "tmux" "tms" "cmatrix")
+source /usr/share/zsh/plugins/fzf-tab-git/fzf-tab.plugin.zsh
+source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
+source /usr/share/zsh/plugins/zsh-autoswitch-virtualenv/zsh-autoswitch-virtualenv.plugin.zsh
+source /usr/share/zsh/plugins/zsh-auto-notify/auto-notify.plugin.zsh
+source /usr/share/zsh/plugins/zsh-autopair/autopair.zsh
+AUTO_NOTIFY_IGNORE+=("lazygit" "crontab -e" "yazi" "spotify-launcher" "tmux attach" "tmux" "tms" "cmatrix" "sudoedit")
 
 zstyle ':completion:*' menu select
 

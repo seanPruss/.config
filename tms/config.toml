@@ -35,6 +35,14 @@ path = "/home/seanp/.config/Thunar"
 depth = 10
 
 [[search_dirs]]
+path = "/home/seanp/.config/TrenTwins.jpg"
+depth = 10
+
+[[search_dirs]]
+path = "/home/seanp/.config/Unknown Organization"
+depth = 10
+
+[[search_dirs]]
 path = "/home/seanp/.config/WebCord"
 depth = 10
 
@@ -60,6 +68,10 @@ depth = 10
 
 [[search_dirs]]
 path = "/home/seanp/.config/flutter"
+depth = 10
+
+[[search_dirs]]
+path = "/home/seanp/.config/green-recorder"
 depth = 10
 
 [[search_dirs]]
@@ -99,7 +111,19 @@ path = "/home/seanp/.config/mimeapps.list"
 depth = 10
 
 [[search_dirs]]
+path = "/home/seanp/.config/nautilus"
+depth = 10
+
+[[search_dirs]]
 path = "/home/seanp/.config/nvim"
+depth = 10
+
+[[search_dirs]]
+path = "/home/seanp/.config/nwg-look"
+depth = 10
+
+[[search_dirs]]
+path = "/home/seanp/.config/obs-studio"
 depth = 10
 
 [[search_dirs]]
@@ -108,6 +132,10 @@ depth = 10
 
 [[search_dirs]]
 path = "/home/seanp/.config/pulse"
+depth = 10
+
+[[search_dirs]]
+path = "/home/seanp/.config/sddm-rose-pine"
 depth = 10
 
 [[search_dirs]]
@@ -151,6 +179,10 @@ path = "/home/seanp/.config/visp"
 depth = 10
 
 [[search_dirs]]
+path = "/home/seanp/.config/vlc"
+depth = 10
+
+[[search_dirs]]
 path = "/home/seanp/.config/wal"
 depth = 10
 
@@ -171,7 +203,19 @@ path = "/home/seanp/.config/xfce4"
 depth = 10
 
 [[search_dirs]]
+path = "/home/seanp/.config/xsettingsd"
+depth = 10
+
+[[search_dirs]]
 path = "/home/seanp/.config/yay"
+depth = 10
+
+[[search_dirs]]
+path = "/home/seanp/.config/zoom.conf"
+depth = 10
+
+[[search_dirs]]
+path = "/home/seanp/.config/zoomus.conf"
 depth = 10
 
 [[search_dirs]]
@@ -180,4 +224,8 @@ depth = 10
 
 [[search_dirs]]
 path = "/home/seanp/school"
+depth = 10
+
+[[search_dirs]]
+path = "/home/seanp/personal-repos"
 depth = 10
