@@ -22,7 +22,6 @@ fi
 uwufetch
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-export EDITOR="nvim"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/local/lib"
 export FZF_DEFAULT_OPTS="
 	--color=fg:#908caa,bg:#191724,hl:#ebbcba
@@ -72,9 +71,6 @@ alias bb="cd ../.."
 alias bbb="cd ../../.."
 alias bbbb="cd ../../../.."
 alias p="cd -"
-alias pp="cd -2"
-alias ppp="cd -3"
-alias pppp="cd -4"
 alias vim="nvim"
 alias cim='vim'
 # Git aliases
