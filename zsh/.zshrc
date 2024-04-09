@@ -151,6 +151,7 @@ source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 source /usr/share/zsh/plugins/zsh-autoswitch-virtualenv/zsh-autoswitch-virtualenv.plugin.zsh
 source /usr/share/zsh/plugins/zsh-auto-notify/auto-notify.plugin.zsh
 source /usr/share/zsh/plugins/zsh-autopair/autopair.zsh
+source /usr/share/zsh/plugins/zsh-directory-history/zsh-directory-history.zsh
 AUTO_NOTIFY_IGNORE+=("lazygit" "crontab -e" "yazi" "spotify-launcher" "tmux attach" "tmux" "tms" "cmatrix" "sudoedit")
 
 zstyle ':completion:*' menu select
