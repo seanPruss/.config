@@ -154,6 +154,10 @@ source /usr/share/zsh/plugins/zsh-autopair/autopair.zsh
 source /usr/share/zsh/plugins/zsh-directory-history/zsh-directory-history.zsh
 AUTO_NOTIFY_IGNORE+=("lazygit" "crontab -e" "yazi" "spotify-launcher" "tmux attach" "tmux" "tms" "cmatrix" "sudoedit")
 
+if [[ -f /etc/bash.command-not-found ]]; then
+    . /etc/bash.command-not-found
+fi
+
 zstyle ':completion:*' menu select
 
 # history substring search options
