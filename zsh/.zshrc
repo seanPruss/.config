@@ -65,7 +65,7 @@ cll() {
     clear
     ll
 }
-alias tree='ls --tree'
+alias tree='eza --tree --git-ignore'
 alias b="cd .."
 alias bb="cd ../.."
 alias bbb="cd ../../.."
