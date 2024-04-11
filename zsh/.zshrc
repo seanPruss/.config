@@ -33,7 +33,8 @@ export FZF_DEFAULT_OPTS="
 HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.zsh_history
-# Add flags to existing aliases.
+
+#Aliases
 alias fucking="sudo"
 alias install="yay -S --noconfirm"
 update ()
@@ -46,7 +47,6 @@ alias search="yay -Ss"
 alias ls="eza -a --icons=auto"
 alias sl="ls"
 alias ll="ls -lh --git --git-repos"
-# Define aliases.
 foo() {
     z $1
     ls
@@ -151,7 +151,7 @@ source /usr/share/zsh/plugins/zsh-autoswitch-virtualenv/zsh-autoswitch-virtualen
 source /usr/share/zsh/plugins/zsh-auto-notify/auto-notify.plugin.zsh
 source /usr/share/zsh/plugins/zsh-autopair/autopair.zsh
 source /usr/share/zsh/plugins/zsh-directory-history/zsh-directory-history.zsh
-AUTO_NOTIFY_IGNORE+=("lazygit" "crontab -e" "yazi" "spotify-launcher" "tmux attach" "tmux" "tms" "cmatrix" "sudoedit")
+AUTO_NOTIFY_IGNORE+=("lazygit" "crontab -e" "yazi" "tmux attach" "tmux" "tms" "cmatrix" "sudoedit")
 
 if [[ -f /etc/bash.command-not-found ]]; then
     . /etc/bash.command-not-found
