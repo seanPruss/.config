@@ -1,4 +1,3 @@
-source ~/.zshenv
 if [ "$TERM" = "linux" ]; then
 	/bin/echo -e "
 	\e]P0#191724
