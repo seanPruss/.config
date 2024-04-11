@@ -194,7 +194,9 @@ vimcmd_visual_symbol = '[](bold fg:color_love)'
 [shell]
 style = "bg:color_rose"
 format = "[$indicator]($style)"
+bash_indicator = " "
+zsh_indicator = "%_"
 fish_indicator = '󰈺 '
-powershell_indicator = '_'
+powershell_indicator = '󰨊 '
 unknown_indicator = 'mystery shell'
 disabled = false
