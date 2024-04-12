@@ -1,17 +1,14 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
+[](fg:color_surface)\
 $os\
 $username\
 $hostname\
-[](bg:color_surface fg:color_muted)\
 $shell\
-[](fg:color_muted bg:color_surface)\
 $directory\
-[](fg:color_muted bg:color_surface)\
 $git_branch\
 $git_status\
-[](fg:color_muted bg:color_surface)\
 $c\
 $rust\
 $golang\
@@ -24,7 +21,6 @@ $haskell\
 $ocaml\
 $python\
 $lua\
-[](fg:color_muted bg:color_surface)\
 $time\
 [](fg:color_surface)\
 $line_break$character"""
@@ -75,11 +71,11 @@ format = '[ $user]($style)'
 [hostname]
 ssh_only = false
 style = "bg:color_surface fg:color_love"
-format = '[@$ssh_symbol$hostname]($style)'
+format = '[@$ssh_symbol$hostname]($style)[](bg:color_surface fg:color_muted)'
 
 [directory]
 style = "fg:color_rose bg:color_surface"
-format = "[ $path]($style)"
+format = "[ $path]($style)[](bg:color_surface fg:color_muted)"
 truncation_length = 3
 truncation_symbol = "…/"
 
@@ -97,7 +93,7 @@ format = '[ $symbol $branch]($style)'
 
 [git_status]
 style = "bg:color_surface fg:color_pine"
-format = '[($all_status$ahead_behind)]($style)'
+format = '[($all_status$ahead_behind)]($style)[](bg:color_surface fg:color_muted)'
 conflicted = '🏳'
 ahead = '🏎💨'
 behind = '😰'
@@ -112,62 +108,62 @@ deleted = '🗑'
 [nodejs]
 symbol = ""
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [deno]
 symbol = "🦕"
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [c]
 symbol = " "
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [rust]
 symbol = ""
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [golang]
 symbol = ""
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [php]
 symbol = ""
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [java]
 symbol = " "
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [kotlin]
 symbol = ""
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [haskell]
 symbol = ""
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [ocaml]
 symbol = ""
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [python]
 symbol = ""
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [lua]
 symbol = "󰢱"
 style = "bg:color_surface fg:color_foam"
-format = '[ $symbol( $version)]($style)'
+format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 
 [time]
@@ -190,7 +186,7 @@ vimcmd_visual_symbol = '[](bold fg:color_love)'
 
 [shell]
 style = "bg:color_surface fg:color_gold"
-format = "[ $indicator]($style)"
+format = "[ $indicator]($style)[](bg:color_surface fg:color_muted)"
 bash_indicator = " "
 zsh_indicator = "%_"
 fish_indicator = '󰈺 '
