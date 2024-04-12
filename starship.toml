@@ -80,6 +80,7 @@ truncation_length = 3
 truncation_symbol = "…/"
 
 [directory.substitutions]
+"~" = "󰋜 "
 "Documents" = "󰈙 "
 "Downloads" = " "
 "Music" = "󰝚 "
@@ -93,7 +94,7 @@ format = '[ $symbol $branch]($style)'
 
 [git_status]
 style = "bg:color_surface fg:color_pine"
-format = '[($all_status$ahead_behind)]($style)[](bg:color_surface fg:color_muted)'
+format = '[ ($all_status$ahead_behind)]($style)[](bg:color_surface fg:color_muted)'
 conflicted = '🏳'
 ahead = '🏎💨'
 behind = '😰'
