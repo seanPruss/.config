@@ -136,7 +136,7 @@ style = "bg:color_surface fg:color_foam"
 format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
 [java]
-symbol = " "
+symbol = ""
 style = "bg:color_surface fg:color_foam"
 format = '[ $symbol( $version)]($style)[](bg:color_surface fg:color_muted)'
 
