@@ -76,17 +76,15 @@ format = '[@$ssh_symbol$hostname]($style)[](bg:color_surface fg:color_muted)'
 
 [directory]
 style = "fg:color_rose bg:color_surface"
-format = "[ $path]($style)[](bg:color_surface fg:color_muted)"
-truncation_length = 3
-truncation_symbol = "…/"
+format = "[ $path ]($style)[](bg:color_surface fg:color_muted)"
 
 [directory.substitutions]
-"~" = "󰋜 "
-"Documents" = "󰈙 "
-"Downloads" = " "
-"Music" = "󰝚 "
-"Pictures" = " "
-"personal-repos" = "󰲋 "
+"~" = "󰋜"
+"Documents" = "󰈙"
+"Downloads" = ""
+"Music" = "󰝚"
+"Pictures" = ""
+"personal-repos" = "󰲋"
 
 [git_branch]
 symbol = ""
