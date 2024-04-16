@@ -18,7 +18,7 @@ if [ "$TERM" = "linux" ]; then
 	\e]PF#e0def4
 	"
 fi
-uwufetch
+nerdfetch
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/local/lib"
