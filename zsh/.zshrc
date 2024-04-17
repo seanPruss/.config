@@ -20,18 +20,47 @@ if [ "$TERM" = "linux" ]; then
 	\e]PF#e0def4
 	"
 fi
-# fzf colours
+
+neofetch
+#source ~/.config/zsh/git.zsh
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+eval "$(fzf --zsh)"
+# fzf config
 export FZF_DEFAULT_OPTS="
 	--color=fg:#908caa,bg:#191724,hl:#ebbcba
 	--color=fg+:#e0def4,bg+:#26233a,hl+:#ebbcba
 	--color=border:#403d52,header:#31748f,gutter:#191724
 	--color=spinner:#f6c177,info:#9ccfd8,separator:#403d52
-	--color=pointer:#c4a7e7,marker:#eb6f92,prompt:#908caa"
+	--color=pointer:#c4a7e7,marker:#eb6f92,prompt:#908caa
+    --preview 'bat -n --color=always --line-range :500 {}'"
+export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
+export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
+_fzf_comprun() {
+  local command=$1
+  shift
 
-#source ~/.config/zsh/git.zsh
-neofetch
-eval "$(starship init zsh)"
-eval "$(zoxide init zsh)"
+  case "$command" in
+    cd)           fzf --preview 'eza --tree --color=always {} | head -200' "$@" ;;
+    export|unset) fzf --preview "eval 'echo $'{}"         "$@" ;;
+    ssh)          fzf --preview 'dig {}'                   "$@" ;;
+    *)            fzf --preview "bat -n --color=always --line-range :500 {}" "$@" ;;
+  esac
+}
+
+_fzf_compgen_path() {
+    fd --hidden --exclude .git . "$1"
+}
+_fzf_compgen_dir() {
+    fd --type=d --hidden --exclude .git . "$1"
+}
+
+source ~/.config/fzf-git.sh/fzf-git.sh
+
+# bat config
+export BAT_THEME=rose-pine
 
 # History in cache directory:
 HISTSIZE=10000
