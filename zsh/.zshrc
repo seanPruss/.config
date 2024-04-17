@@ -57,8 +57,6 @@ _fzf_compgen_dir() {
     fd --type=d --hidden --exclude .git . "$1"
 }
 
-source ~/.config/fzf-git.sh/fzf-git.sh
-
 # bat config
 export BAT_THEME=rose-pine
 
