@@ -21,7 +21,7 @@ if [ "$TERM" = "linux" ]; then
 	"
 fi
 nerdfetch
-#source .zsh_git
+#source git.zsh
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/local/lib"
