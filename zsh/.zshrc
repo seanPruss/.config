@@ -64,9 +64,6 @@ check_directory_for_new_repository() {
 	last_repository=$current_repository
 }
 
-# optional, greet also when opening shell directly in repository directory
-# adds time to startup
-check_directory_for_new_repository
 alias cd="foo"
 mcd() {
     mkdir -p $1
