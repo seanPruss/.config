@@ -47,7 +47,7 @@ alias search="yay -Ss"
 alias ls="eza -a --icons=auto"
 alias sl="ls"
 alias ll="ls -lh --git --git-repos"
-foo() {
+cd() {
     z $1
 	check_directory_for_new_repository
     ls
@@ -64,7 +64,6 @@ check_directory_for_new_repository() {
 	last_repository=$current_repository
 }
 
-alias cd="foo"
 mcd() {
     mkdir -p $1
     cd $1
