@@ -20,6 +20,13 @@ find_main_branch() {
     local main_branch_ref=$(git ls-remote --heads origin | grep -E '\b(main|master)\b' | cut -f 1)
     echo "$main_branch_ref"
 }
+gp ()
+{
+    if ! ssh-add -l | grep -q "$(ssh-keygen -lf ~/.ssh/id_rsa.pub)"; then
+        ssh-add -t 28800 ~/.ssh/id_rsa &>/dev/null
+    fi
+    git push
+}
 alias gc='git commit -m'
 alias gco='git checkout'
 alias ga='git add'
@@ -44,7 +51,6 @@ alias grc='git rebase --continue'
 alias gra='git rebase --abort'
 alias gec='git status | grep "both modified:" | cut -d ":" -f 2 | trim | xargs nvim -'
 alias gcan='gc --amend --no-edit'
-alias gp="git push"
 alias gpf='git push --force-with-lease'
 alias gbdd='git-branch-utils -d'
 alias gbuu='git-branch-utils -u'
