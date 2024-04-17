@@ -39,6 +39,14 @@ SAVEHIST=10000
 HISTFILE=~/.zsh_history
 
 # Aliases
+
+# Clear screen and neofetch
+nf ()
+{
+    clear
+    neofetch
+}
+# sudo alias because why not
 alias fucking="sudo"
 
 # yay aliases
