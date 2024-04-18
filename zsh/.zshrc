@@ -32,8 +32,8 @@ export FZF_DEFAULT_OPTS="
 	--color=fg+:#e0def4,bg+:#26233a,hl+:#ebbcba
 	--color=border:#403d52,header:#31748f,gutter:#191724
 	--color=spinner:#f6c177,info:#9ccfd8,separator:#403d52
-	--color=pointer:#c4a7e7,marker:#eb6f92,prompt:#908caa
-    --preview 'bat -n --color=always --line-range :500 {}'"
+	--color=pointer:#c4a7e7,marker:#eb6f92,prompt:#908caa"
+export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always --line-range :500 {}'"
 export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
 export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
