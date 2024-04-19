@@ -125,7 +125,10 @@ alias vim="nvim"
 alias lzg='lazygit'
 alias yz='yazi'
 alias tp="btop"
-alias btw="toilet -f ivrit 'I use Arch btw' | lolcat"
+btw() {
+    clear
+    toilet -f ivrit 'I use Arch btw' | lolcat
+}
 
 # tmux aliases
 alias tm='tmux'
@@ -142,6 +145,7 @@ alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pac
 alias cim='vim'
 alias sl="ls"
 alias xs="cd"
+alias bwt="btw"
 
 # options
 unsetopt menu_complete
