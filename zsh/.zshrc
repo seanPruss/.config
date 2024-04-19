@@ -125,6 +125,7 @@ alias vim="nvim"
 alias lzg='lazygit'
 alias yz='yazi'
 alias tp="btop"
+alias btw="toilet -f ivrit 'I use Arch btw' | lolcat"
 
 # tmux aliases
 alias tm='tmux'
