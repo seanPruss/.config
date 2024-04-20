@@ -162,7 +162,7 @@ tooltip label {
 }
 
 #custom-launch_firefox {
-  color: @pine;
+  color: @love;
 }
 
 #custom-launch_webcord {
@@ -178,5 +178,5 @@ tooltip label {
 }
 
 #custom-launch_thunar {
-  color: @love;
+  color: @pine;
 }
