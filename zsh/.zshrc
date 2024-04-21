@@ -108,7 +108,9 @@ cd() {
     else
         # open interactive mode if arg is in zoxide database
         # NOTE: "zoxide: no match found" will be displayed if the argument is 
-        # not in the database but z will still work and ls will run
+        # not in the database but z will still work and ls will run. Also if the
+        # directory you want to cd into is inside cwd hit escape if interactive
+        # menu pops up
         if ! zi $1; then
             z $1
         fi
