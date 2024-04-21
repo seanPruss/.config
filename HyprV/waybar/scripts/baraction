@@ -48,9 +48,9 @@ gsettings set org.gnome.desktop.interface gtk-theme "rose-pine-gtk"
 
 #change the background image and be cool about it ;)
 if [ -z $SET_BG ]; then
-	swww img ~/.config/TrenTwins.jpg
+	swww img ~/.config/TrenTwins.png
 else
-	swww img ~/.config/TrenTwins.jpg
+	swww img ~/.config/TrenTwins.png
 fi
 
 #update the sddm image
