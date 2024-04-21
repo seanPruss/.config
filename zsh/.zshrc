@@ -102,7 +102,18 @@ cll() {
 
 # better cd
 cd() {
-    z $1 #zoxide is cooler than cd
+    # do we want to go home or to previous directory
+    if [[ $1 = "" || $1 = "-" ]]; then
+        z $1
+    else
+        # open interactive mode if arg is in zoxide database
+        # NOTE: "zoxide: no match found" will be displayed if the argument is 
+        # not in the database but z will still work and ls will run
+        if ! zi $1; then
+            z $1
+        fi
+    fi
+    # If argument in zoxide database, use interactive option
 	check_directory_for_new_repository
     ls # I have never seen anyone ever do a cd without also doing ls
 }
