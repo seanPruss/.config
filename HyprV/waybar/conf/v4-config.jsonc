@@ -6,8 +6,8 @@
   "passthrough": false,
   "gtk-layer-shell": true,
   "height": 20,
-  "modules-left": ["custom/power_btn", "custom/lock_screen", "wlr/workspaces"],
-  "modules-center": ["idle_inhibitor", "custom/updates"],
+  "modules-left": ["custom/power_btn", "custom/lock_screen"],
+  "modules-center": ["idle_inhibitor", "wlr/workspaces", "custom/updates"],
   "modules-right": [
     "cpu",
     "memory",

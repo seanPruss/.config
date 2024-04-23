@@ -188,13 +188,13 @@ bindkey '^e' end-of-line
 source /usr/share/zsh/plugins/fzf-tab-git/fzf-tab.plugin.zsh
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
-source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 source /usr/share/zsh/plugins/zsh-autoswitch-virtualenv/zsh-autoswitch-virtualenv.plugin.zsh
 source /usr/share/zsh/plugins/zsh-auto-notify/auto-notify.plugin.zsh
 source /usr/share/zsh/plugins/zsh-autopair/autopair.zsh
 source /usr/share/zsh/plugins/zsh-directory-history/zsh-directory-history.zsh
 source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 AUTO_NOTIFY_IGNORE+=("lazygit" "crontab -e" "yazi" "tmux attach" "tmux" "tms" "cmatrix" "sudoedit" "git log" "cd")
 
 if [[ -f /etc/bash.command-not-found ]]; then
