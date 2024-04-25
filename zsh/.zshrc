@@ -78,11 +78,6 @@ alias fucking="sudo"
 
 # yay aliases
 alias install="yay -S --noconfirm"
-update ()
-{
-    yay -Syu --noconfirm
-    flatpak update
-}
 alias uninstall="yay -Rns --noconfirm"
 alias search="yay -Ss"
 
