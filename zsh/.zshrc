@@ -138,10 +138,9 @@ btw() {
     toilet -f ivrit 'I use Arch btw' | lolcat
 }
 
-# tmux aliases
-alias tm='tmux'
-alias tma='tmux attach'
-alias tls='tmux ls'
+# zellij aliases
+alias zla='zellij attach'
+alias zls='zellij ls'
 
 # update mirrors
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
@@ -190,7 +189,7 @@ source /usr/share/zsh/plugins/zsh-autopair/autopair.zsh
 source /usr/share/zsh/plugins/zsh-directory-history/zsh-directory-history.zsh
 source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
-AUTO_NOTIFY_IGNORE+=("lazygit" "crontab -e" "yazi" "tmux attach" "tmux" "tms" "cmatrix" "sudoedit" "git log" "cd")
+AUTO_NOTIFY_IGNORE+=("lazygit" "crontab -e" "yazi" "zellij" "cmatrix" "sudoedit" "git log" "cd")
 
 if [[ -f /etc/bash.command-not-found ]]; then
     . /etc/bash.command-not-found

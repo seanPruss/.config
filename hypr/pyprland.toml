@@ -24,6 +24,15 @@ class = "thunderbird"
 size = "90% 90%"
 unfocus = "hide"
 
+[scratchpads.install]
+animation = "fromTop"
+command = "kitty --class='kitty-install' '/home/seanp/.config/install.sh'"
+class = "kitty-install"
+size = "70% 70%"
+position = "15% 15%"
+unfocus = "hide"
+lazy = true
+
 [scratchpads.update]
 animation = "fromTop"
 command = "kitty --class='kitty-update' '/home/seanp/.config/update.sh'"
