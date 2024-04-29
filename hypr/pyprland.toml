@@ -8,6 +8,13 @@ class = "Spotify"
 size = "80% 85%"
 unfocus = "hide"
 
+[scratchpads.webcord]
+animation = "fromTop"
+command = "webcord"
+class = "WebCord"
+size = "90% 90%"
+unfocus = "hide"
+
 [scratchpads.thunar]
 animation = "fromTop"
 command = "thunar"
