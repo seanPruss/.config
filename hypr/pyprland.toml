@@ -49,6 +49,15 @@ position = "15% 15%"
 unfocus = "hide"
 lazy = true
 
+[scratchpads.btop]
+animation = "fromTop"
+command = "kitty --class='kitty-btop' 'btop'"
+class = "kitty-btop"
+size = "70% 70%"
+position = "15% 15%"
+unfocus = "hide"
+lazy = true
+
 [scratchpads.volume]
 animation = "fromTop"
 command = "pavucontrol"
